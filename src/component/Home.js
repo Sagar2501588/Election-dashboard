@@ -6,7 +6,7 @@ import ResultPanel from "../component/ResultPanel";
 
 
 
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
+mapboxgl.accessToken = "pk.eyJ1Ijoicm95YWtzaGF5IiwiYSI6ImNtaG4xajNkbTBoejQya3NqdTJvcnNxdGYifQ.E28RXpfwqtYaSvlLN_E00A";
 
 const Home = () => {
     const [map, setMap] = useState(null);

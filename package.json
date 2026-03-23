@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sagar2501588.github.io/bihar-election-dashboard",
+  "homepage": "https://Sagar2501588.github.io/Election-dashboard",
   "name": "bihar-election-dashboard",
   "version": "1.0.0",
   "private": false,
@@ -15,10 +15,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
